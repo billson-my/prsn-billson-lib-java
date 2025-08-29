@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="CONSOLE"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{ISO8601}|%5p|%t|%m|                    @ %c#%L%n</pattern>
+		</encoder>
+	</appender>
+	<!-- <logger name="org.springframework"> <level value="INFO" /> </logger> -->
+
+
+	<logger name="org.springframework.test">
+		<level value="INFO" />
+	</logger>
+	<!-- <logger name="org.springframework.test.annotation"> <level value="INFO" 
+		/> </logger> <logger name="org.springframework.test.annotation"> <level value="INFO" 
+		/> </logger> -->
+	<logger name="org.springframework.core">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.beans">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.context">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.validator">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.type">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.integrator">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.aop">
+		<level value="INFO" />
+	</logger>
+	<logger
+		name="org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator">
+		<level value="DEBUG" />
+	</logger>
+<!-- 
+	<logger name="org.hibernate.jpa.internal.util.LogHelper">
+		<level value="DEBUG" />
+	</logger>
+ -->
+	<logger name="org.hibernate.id">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.web">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.internal">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.cfg">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.boot">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.context">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.test">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.logging">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.autoconfigure">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.actuate.endpoint">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.ws">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.cloud">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.ui">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.data">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.mapping">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.persister">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.orm">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.jpa">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.loader">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.SQL">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="org.hibernate.type.descriptor.sql.BasicBinder">
+		<level value="TRACE" />
+	</logger>
+	
+	<!-- netflix microservice config -->
+	<logger name="org.apache.http">
+		<level value="INFO" />
+	</logger>
+	<logger name="com.netflix.discovery">
+		<level value="INFO" />
+	</logger>
+	<!-- netflix microservice config -->
+	
+	<logger name="de.codecentric.boot">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.keycloak.adapters">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.boot.web">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.security.web">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.security.access">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.jdbc.datasource">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.jdbc.core">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.jdbc.core.JdbcTemplate">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="org.springframework.jdbc.core.StatementCreatorUtils">
+		<level value="TRACE" />
+	</logger>
+	<logger name="org.hibernate.engine.internal">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.event.internal">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.hibernate.hql.internal">
+		<level value="INFO" />
+	</logger>
+	<logger name="com.netflix.loadbalancer">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.apache.activemq">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.springframework.jdbc.core.JdbcTemplate">
+		<level value="INFO" />
+	</logger>
+	
+	<!--
+logging.level.com.tiongnam.orderservice.service.OrderService=INFO
+	-->
+	<logger name="com.tiongnam.orderservice.service.OrderService">
+		<level value="INFO" />
+	</logger>
+	
+	
+	
+	<logger name="org.apache.pdfbox">
+		<level value="INFO" />
+	</logger>
+	<logger name="org.apache.pdfbox.pdfparser">
+		<level value="INFO" />
+	</logger>
+	
+	<logger name="org.apache.fontbox">
+		<level value="INFO" />
+	</logger>
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="CONSOLE" />
+	</root>
+</configuration>
