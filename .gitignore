@@ -1,4 +1,7 @@
 **/target/**
+#	add target below as **/target/** not working 
+target
+bin
 
 pom.xml.tag
 pom.xml.releaseBackup
