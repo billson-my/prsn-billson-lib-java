@@ -6,11 +6,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>prsn.billson.lib</groupId>
-		<artifactId>lib-java</artifactId>
+		<artifactId>prsn-billson-lib-java</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>prsn.billson.lib</groupId>
-	<artifactId>lib-java-general</artifactId>
+	<artifactId>prsn-billson-lib-java-general</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lib-java-general</name>
 	<url>http://maven.apache.org</url>
