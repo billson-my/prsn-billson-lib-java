@@ -8,7 +8,11 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * 
+ * Warning: Key Impacts are Performance, Robustness, Security, Maintainability,
+ * Memory Usage. <br />
+ * After checking with gemini, this util more to a temporary patch as key
+ * impacts above, to buy time for getting close to future proof implementation
+ * or patch.
  */
 public class UtilMasterKey {
 
